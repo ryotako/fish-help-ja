@@ -1,3 +1,3 @@
-test "$BASENAME"
-    -z ""
+test "help"
+  help-ja 
 end
