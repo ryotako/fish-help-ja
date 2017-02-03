@@ -1,6 +1,6 @@
-complete -c help-ja -d "Show Japanese help for the fish shell"
+complete -xc help-ja -d "Show Japanese help for the fish shell"
 
-complete -xc help-ja -s h -l help "Show help"
+complete -xc help-ja -s h -l help -d "Show help"
 
 complete -xc help-ja -a [           -d "builtin"
 complete -xc help-ja -a and         -d "builtin"
